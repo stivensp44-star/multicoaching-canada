@@ -1,0 +1,6 @@
+work/
+outputs/.sites-runtime/
+outputs/*.tmp
+outputs/*.bak
+Thumbs.db
+.DS_Store

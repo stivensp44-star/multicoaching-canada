@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://multicoaching.ca/sitemap.xml
