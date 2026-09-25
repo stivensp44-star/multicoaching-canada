@@ -5,3 +5,25 @@
 html,body{overflow-x:hidden}
 .languages small{display:inline;color:var(--muted);font-size:9px;letter-spacing:0}.legal-nav{display:flex!important;gap:18px}.legal-nav .languages{white-space:nowrap}@media(max-width:720px){.legal-nav{gap:10px;flex-wrap:wrap;justify-content:flex-end}.legal-nav .languages small{display:none}}
 .brand-mark[hidden],.brand-wordmark[hidden],.brand-logo[hidden]{display:none!important}.brand-logo{height:62px;max-width:120px}
+/* Readability pass: preserve the existing visual system while increasing text clarity. */
+:root{--muted:#4b5d76}
+body{font-size:17px}
+.site-nav{font-size:15px}
+.languages{font-size:12px}
+.languages small{font-size:12px}
+.button,.button-small{font-size:15px}
+.eyebrow{font-size:12px}
+.hero-lede{font-size:20px}
+.hero-note{font-size:14px}
+.trust-grid strong{font-size:16px}.trust-grid span{font-size:13px}
+.section-intro>p:last-child{font-size:17px}
+.service-card>p{font-size:16px}.service-card li{font-size:14px}.card-link{font-size:14px}
+.about-copy>p:not(.large-copy){font-size:17px}
+.founder-role{font-size:16px}.founder-copy>p:not(.eyebrow):not(.founder-role){font-size:17px}
+.value-card p{font-size:16px}
+.process-heading>p{font-size:17px}.process-step p{font-size:15px}
+.audience-list span{font-size:14px}
+.contact-copy>p:not(.eyebrow){font-size:17px}.contact-form label{font-size:14px}.contact-form input,.contact-form select,.contact-form textarea{font-size:16px}.contact-details span{font-size:13px}.contact-details strong{font-size:18px}.social-links{font-size:15px}
+.footer-top>div:first-child p{font-size:15px}.footer-nav,.footer-contact{font-size:15px}.footer-bottom{font-size:13px}
+.legal-copy p{font-size:17px}
+@media(max-width:720px){body{font-size:16px}.hero-lede{font-size:18px}.founder-copy>p:not(.eyebrow):not(.founder-role){font-size:16px}.contact-copy>p:not(.eyebrow){font-size:16px}.footer-nav,.footer-contact{font-size:14px}}
