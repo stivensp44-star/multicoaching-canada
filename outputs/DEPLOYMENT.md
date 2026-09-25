@@ -15,7 +15,11 @@ Site statique sans build, dépendance payante, base de données ou serveur. Le d
 1. Pousser le contenu vers un dépôt GitHub.
 2. Dans Cloudflare, ouvrir **Workers & Pages → Create application → Pages → Connect to Git**.
 3. Choisir le dépôt et configurer le projet en site statique.
-4. Laisser la commande de build vide et définir le répertoire de sortie sur `outputs` (ou publier le contenu de `outputs` comme racine du dépôt).
+4. Utiliser les paramètres Cloudflare Pages suivants :
+   - Framework preset : `None`
+   - Production branch : `main`
+   - Build command : `exit 0`
+   - Build output directory : `outputs`
 5. Après le premier déploiement, ouvrir **Custom domains** et ajouter `multicoaching.ca`, puis `www.multicoaching.ca`.
 6. Suivre exactement les enregistrements DNS affichés par Cloudflare. Ne pas deviner les cibles et ne pas modifier GoDaddy avant cette étape.
 7. Vérifier le certificat HTTPS, la redirection choisie entre domaine nu et `www`, puis tester les deux URLs.
